@@ -16,7 +16,7 @@ public class ByteUtils {
 	public byte[] getByteImages(String name) throws IOException {
 		
 		String path = 
-			Paths.get("").toAbsolutePath().toString()	// カレントパス
+			Paths.get("").toAbsolutePath().toString()	// current path
 			+ "\\src\\main\\resources\\images\\"
 			+ name;
 		File file = new File(path);
